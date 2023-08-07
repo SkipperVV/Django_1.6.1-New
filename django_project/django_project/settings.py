@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.flatpages',
     'fpages',
-    'img',
 ]
 SITE_ID=1
 
