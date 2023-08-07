@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>{{ flatpage.title }}</title>
+</head>
+<body>
+
+
+<p>
+<!--    <center>-->
+        <img src="/static/assets/img/Green_oak.jpg"
+             width="500"
+             height="750"
+             align= "left"
+             vspace="5"
+             hspace="5"
+        />
+</p>
+<h3>Вспомни классику:</h3>
+<font color="#ff0000">
+    {{flatpage.content}}
+</font>
+
+<br>
+
+
+
+<h3>Повторенье- мать ученья:</h3>
+
+<font color="color:#32CD32">
+    {{flatpage.content}}
+    {% include 'flatpages/menu.html' %}
+</font>
+
+</body>
+</html>
